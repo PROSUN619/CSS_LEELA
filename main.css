@@ -2,29 +2,23 @@ body{
     margin: 0px;
 }
 
-/* attribute selector */
-
-/* a[href]{
+a:hover{
     color: red;
-} */
+    outline: 3px dotted green;
+}
+
+/* psudo */
+
+.class1::after{
+    content: ' Techies';
+}
 
 
-/* a[href="https://www.facebook.com/"]{
-    color: red;
-} */
+li::selection{
+    background: black;
+    color: white;
+}
 
-
-/* should have "com" anywhere */
-/* a[href*="com"]{
-    color: red;
-} */
-
-/* should start with "http" */
-/* a[href^="http"]{
-    color: red;
-} */
-
-/* should end with "/" */
-a[href$="/"]{
+li::marker{
     color: red;
 }
