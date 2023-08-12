@@ -2,23 +2,12 @@ body{
     margin: 0px;
 }
 
-a:hover{
+/* decendant selector */
+div strong{
     color: red;
-    outline: 3px dotted green;
 }
 
-/* psudo */
-
-.class1::after{
-    content: ' Techies';
-}
-
-
-li::selection{
-    background: black;
-    color: white;
-}
-
-li::marker{
-    color: red;
+/* direct decendant selector */
+div > strong{
+    color: blue;
 }
