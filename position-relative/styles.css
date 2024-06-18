@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+.parent{
+    background-color: aqua;
+    height: 75vh;
+    width: 75vw;
+    position: relative;
+    z-index: -1;
+}
+
+.child{
+    position: relative;
+    top: 1%;
+    left:10%;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    z-index: 1;
+}
+
+p{
+    position: relative;
+    bottom: 10%;
+    z-index: 0;
+}
+

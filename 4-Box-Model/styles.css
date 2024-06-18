@@ -1,0 +1,36 @@
+/* div{
+    box-sizing: border-box;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid red;
+} */
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+
+div{
+    /* box-sizing: border-box; */
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+/*
+ by default all are content box
+ content box -
+ 1. padding border margin is exculded
+
+ border box - 
+ 1. padding border margin is included
+
+*/
+
+

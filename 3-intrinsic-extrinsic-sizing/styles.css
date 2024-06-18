@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+}
+
+div{
+    background-color: brown;
+    /* width: 100%;
+    margin: 10px; */
+    /* width: max-content; fit-content */
+    width: min-content;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+}
+.parent{
+    background-color: aqua;
+    height: 75vh;
+    width: 75vw;
+    /* position: relative; */
+}
+
+.child{
+    position: absolute;
+    background-color: red;
+    top: 0%;
+    bottom: 30%; 
+    height: 20px;
+    width: 20px;
+}
+

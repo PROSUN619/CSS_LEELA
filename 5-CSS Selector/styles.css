@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+}
+
+.red{
+    color: red;
+}
+
+span{
+    color: yellow;
+}
+
+#blue{
+    color: blue;
+}
+
+/* find the exact matching */
+/* a[href='https://www.google.com/']{
+    color: red;
+} */
+
+/* like */
+/* a[href*='google']{
+    color: red;
+} */
+
+/* if starts with
+a[href^='https:']{
+    color: red;
+} */
+
+/* if starts with */
+a[href$='com']{
+    color: red;
+}
+
